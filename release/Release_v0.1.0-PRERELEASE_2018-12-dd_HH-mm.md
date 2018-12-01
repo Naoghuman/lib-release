@@ -11,6 +11,7 @@ TODO
 
 
 #### Feature
+#4 [lib] Connect the library GitHub project with Travis.CI.
 #1 [lib] Add basic project structure to the library.
 
 
