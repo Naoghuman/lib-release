@@ -23,6 +23,7 @@ TODO
 
 
 #### Documentation
+#6 [doc] Write new concept about the basic class, interface structure in this library.
 
 
 

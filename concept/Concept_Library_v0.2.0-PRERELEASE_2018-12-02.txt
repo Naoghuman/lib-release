@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------
+CONCEPT Library v0.2.0-PRERELEASE
+--------------------------------------------------------------------------------
+DESCRIPTION
+In this concept I want to update the concept for my new library 'Lib-Release' to 
+v0.2.0-PRERELEASE.
+
+--------------------------------------------------------------------------------
+API structure
+
+com.github.naoghuman.lib.release.core
+ - Class ReleaseConfigurationBuilder
+    - urlToGitHubProject(),
+    - actualVersion(),
+    - checkUpdateDuringStartup()
+ - Class ReleaseFacade
+    - Bundles all functionalities (expected builders) from the library.
+    - Preferred way to access all functionalities (expected if builders exists).
+
+ - Interface ReleaseClient
+    - Infos about the actual version in the client (application).
+    - Option to check during startup if the application is up-to-date.
+    - Option to check manually if the application is up-to-date.
+ - Interface ReleaseServerGitHub
+    - URL to GitHub project.
+    - Connect to github project last release (returned as json).
+    - Opens a github last release url in common browser.
+    - Extract infos from the json (see ReleaseGitHubConnection).
+    - Extract the infos about the last release.
+    - Extract the infos about the last release notes.
+    - Extract the url to the last release download jar file.
+    - Contains all methods to convert the 'markdown' release note to a 'html' note.
+       - Special: #Nr will be convert to a link from the active GitHub project.
+
+com.github.naoghuman.lib.release.internal
+ - Class DefaultReleaseClient
+    - Implementation from the interface ReleaseClient
+ - Class DefaultReleaseServerGitHub
+    - Implementation from the interface ReleaseServerGitHub
+
+ - Class DefaultReleaseValidator.
+    - Contains basic validation methods for precondition checks.
+
+--------------------------------------------------------------------------------
+EXTRAS
+ - Document about the convention to access and extract the infos from my GitHub
+   projects.
+
+--------------------------------------------------------------------------------
+
