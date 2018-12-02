@@ -67,7 +67,7 @@ Requirements<a name="Requirements" />
 ---
 
 * On your system you need [JRE 8] or [JDK 8] installed.
-* The library [lib-release-0.1.0-PRERELEASE.jar](#Installation).
+* The library [lib-release-0.2.0-PRERELEASE.jar](#Installation).
 
 In the library are following libraries registered as dependencies:
 * The library [lib-logger-0.6.0.jar](#Installation).
