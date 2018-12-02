@@ -11,6 +11,7 @@ TODO
 
 
 #### Feature
+#12 [api] Create new class ReleaseFacade.
 #11 [internal] Create new class DefaultReleaseServerGitHub implements ReleaseServer.
 #10 [api] Create new interface ReleaseServer.
 #9 [internal] Create new class DefaultReleaseClient implements ReleaseClient.
