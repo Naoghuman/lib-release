@@ -52,12 +52,11 @@ API<a name="API" />
 Download<a name="Download" />
 ---
 
-Current `version` is `0.1.0-PRERELEASE`. Main points in this release are:
-* ...
-* ...
+Current `version` is `0.2.0-PRERELEASE`. Main points in this release are:
+* Create basic api for the library.
 
 Download:
-* [Release v0.1.0-PRERELEASE] (12.dd.2018 / MM.dd.yyyy)
+* [Release v0.2.0-PRERELEASE] (12.02.2018 / MM.dd.yyyy)
 
 An overview about all existings releases can be found here:
 * [Overview] from all releases in `Lib-Release`.
@@ -150,5 +149,5 @@ You can reach me under <peter.rogge@yahoo.de>.
 [NetBeans]:https://netbeans.org/
 [Overview]:https://github.com/Naoghuman/lib-release/releases
 [Pull Request]:https://help.github.com/articles/using-pull-requests
-[Release v0.1.0-PRERELEASE]:https://github.com/Naoghuman/lib-release/releases/tag/v0.1.0-PRERELEASE
+[Release v0.2.0-PRERELEASE]:https://github.com/Naoghuman/lib-release/releases/tag/v0.2.0-PRERELEASE
 [Scene Builder]:https://gluonhq.com/products/scene-builder/
