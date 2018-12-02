@@ -5,8 +5,7 @@ TODO
 
 
 #### Summary
-* ...
-* ...
+* Implement and configure the basic library structure.
 
 
 
