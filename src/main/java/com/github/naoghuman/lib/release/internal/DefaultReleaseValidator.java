@@ -136,4 +136,22 @@ public final class DefaultReleaseValidator {
         }
     }
     
+    /**
+     * 
+     * @param   minimum
+     * @param   number 
+     * @since   0.2.0-PRERELEASE
+     * @version 0.2.0-PRERELEASE
+     * @author  Naoghuman
+     * @throws  IllegalArgumentException 
+     */
+    public static void requireNotLesserThen(final int minimum, final int number) {
+        
+        if (number < minimum) {
+            throw new IllegalArgumentException(String.format(
+                    "[Number=%d] can't be lesser then [Minimum=%d]", number, minimum)); // NOI18N
+        }
+        
+    }
+    
 }
