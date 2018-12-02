@@ -11,6 +11,7 @@ TODO
 
 
 #### Feature
+#7 [internal] Create new class DefaultReleaseValidator in internal package.
 
 
 
