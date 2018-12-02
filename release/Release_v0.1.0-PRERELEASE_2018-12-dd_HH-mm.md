@@ -26,6 +26,7 @@ TODO
 
 #### Documentation
 #5 [doc] Add badges from img.shield.io to the start from the ReadMe.
+#3 [doc] Write new concept for the main points from this library.
 #2 [doc] Add basic document structure to the ReadMe.
 
 

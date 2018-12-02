@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+CONCEPT Library v0.1.0-PRERELEASE
+--------------------------------------------------------------------------------
+DESCRIPTION
+In this concept I want to write the concept for my new library 'Lib-Release'.
+
+--------------------------------------------------------------------------------
+IDEAs
+ - https://developer.github.com/v3/
+ - Access to latest release.
+    - Get last release description.
+    - Get last release asset url (for download)
+ - Open download file in browser.
+
+ - Builder to define
+    - URL GitHub project
+ - Functionalities to ask GitHub for:
+    - Latest release for xy project.
+    - Download url for the latest xy project
+    - Get latest release description.
+ - Functionalities to simplify the last release description.
+    - It's markdown.
+    - Remove Markdown, Remove links...
+ - Functionalities to open the download url in standard browser.
+ - Functionality to read the actual version from pom.xml.
+ - JavaFX components for:
+    - last release description.
+    - Hyperlink for the download.
+    - Option check automatically during startup.
+    - Option check manually.
+
+--------------------------------------------------------------------------------
+
