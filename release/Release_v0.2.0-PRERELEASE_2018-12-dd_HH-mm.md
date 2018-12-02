@@ -11,6 +11,7 @@ TODO
 
 
 #### Feature
+#10 [api] Create new interface ReleaseServer.
 #9 [internal] Create new class DefaultReleaseClient implements ReleaseClient.
 #8 [api] Create new interface ReleaseClient.
 #7 [internal] Create new class DefaultReleaseValidator in internal package.
